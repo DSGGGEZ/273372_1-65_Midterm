@@ -14,4 +14,8 @@ module.exports = (app) => {
 
     app.post('/add1', Midterm.add1)
 
+    app.post('/multiply', Midterm.multiply)
+
+    app.post('/LCM', Midterm.LCM)
+
 }
