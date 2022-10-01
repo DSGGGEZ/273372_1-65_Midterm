@@ -28,7 +28,11 @@ module.exports ={
             }
         }
         console.log('GCD = '+ gcd)
-        lcm = (X*Y)/gcd
+        mid=(X*Y)
+        if(mid<0){
+            mid=mid*-1
+        }
+        lcm = mid/gcd
         res.send(lcm.toString())
     }
 
